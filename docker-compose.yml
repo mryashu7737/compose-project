@@ -1,0 +1,30 @@
+version: '3'
+services:
+    dtbsos:
+      image: mysql:5.7 
+      volumes:
+          - mystorage:/var/lib/mysql
+      restart: always
+      environment:
+         MYSQL_ROOT_PASSWORD: rootpass
+         MYSQL_USER: yash 
+         MYSQL_PASSWORD: r00t     
+         MYSQL_DATABASE: mydb
+
+    joomos:
+      image: joomla:latest 
+      volumes:
+        - joo_storage:/var/www/html
+      restart: always
+      depends_on:
+         - dtbsos 
+      ports:
+      - 8081:80
+      environment:
+           JOOMLA_DB_HOST: dtbsos
+           JOOMLA_DB_USER: yash
+           JOOMLA_DB_PASSWORD: r00t                           
+           JOOMLA_DB_NAME: mydb 
+volumes:
+        mystorage:
+        joo_storage:
