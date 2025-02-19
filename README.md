@@ -21,6 +21,7 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 <div style="text-align: center;> 
    
 ## Snapshot of Executing :
+
 ### 1. Screenshot of the Joomla! installation page.
 ---
 
