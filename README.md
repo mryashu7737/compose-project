@@ -1,3 +1,7 @@
-docker-compose code.jpg
+docker-compose
 
-![alt text](https://github.com/mryashu7737/docker-compose/blob/master/code.jpg
+<br><br>
+   <img src=" code.jpg" />
+   <h2 align="center">Code of Compose file.</h2>
+   <br><br>
+   <img src= code.jpg">
