@@ -22,19 +22,14 @@ This project provides a Docker Compose configuration to set up a Joomla! content
    
 ## Snapshot of Executing :
 
-### 15. Navigate to the Joomla control panel dashboard on the external device.
+### 1. Run docker-compose up on the system.
 ---
 
-<center><img src="/SnapShots/Access_JOOMLA.jpeg" height=40% width=30% ></center>
+<img src="/SnapShots/Start_Docker-App.png">
 
-
-
-### 17. Check database details, including table creation status.
-
+### 2. Internally execute the process of creating Joomla and MySQL server on the system.
 ---
-
-<img src="/SnapShots/Check_Docker_Images.png" >
-
+<img src="/SnapShots/DockerApp-processing.png">
 
 
 ### 4. Screenshot of the Joomla! sample site homepage.
@@ -53,44 +48,12 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 
 <img src="/SnapShots/docker-compose code.jpg">
 
-### 2. Internally execute the process of creating Joomla and MySQL server on the system.
----
-<img src="/SnapShots/DockerApp-processing.png">
+
 
 ###: 7. Check the Docker version and start Docker Compose.
 ---
 
 <img src="/SnapShots/Execute_docker-compose.jpg">
-
-### 4. Inspect the Docker container to retrieve the IP address.
----
-
-<img src="/SnapShots/Inspect_IP_Of_Container.png">
-
-###: 13. Complete the Joomla installation on the external device.
----
-
-<img src="/SnapShots/Installing_JOOMPLA_API.jpeg">
-
-### 14. Access the Joomla login page.
----
-
-<img src="/SnapShots/JOOMLA_LOGIN.jpeg">
-
-### 12. Review the Joomla configuration overview on the external device.
----
-
-<img src="/SnapShots/JOOMLA_OverView.jpeg">
-
-### 10. Confirm successful Joomla installation on the external device.
----
-
-<img src="/SnapShots/JOOMLA_web_Page.jpeg">
-
-###: 16. Verify the database and schema on the system.
----
-
-<img src="/SnapShots/MySQL_DB_Run_Inside_D_Container.png">
 
 ### 8. Install Joomla and MySQL on the external device.
 ---
@@ -102,15 +65,55 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 
 <img src="/SnapShots/Searching_On_Device_By_IP.jpg">
 
+### 10. Confirm successful Joomla installation on the external device.
+---
+
+<img src="/SnapShots/JOOMLA_web_Page.jpeg">
+
 ### 11. Fill in the configuration page and enter the required details in the Joomla database on the external device.
 ---
 
 <img src="/SnapShots/Seting_DB_via_JOOMLA.jpeg">
 
-### 1. Run docker-compose up on the system.
+### 12. Review the Joomla configuration overview on the external device.
 ---
 
-<img src="/SnapShots/Start_Docker-App.png">
+<img src="/SnapShots/JOOMLA_OverView.jpeg">
+
+###: 13. Complete the Joomla installation on the external device.
+---
+
+<img src="/SnapShots/Installing_JOOMPLA_API.jpeg">
+
+### 14. Access the Joomla login page.
+---
+
+<img src="/SnapShots/JOOMLA_LOGIN.jpeg">
+
+
+### 15. Navigate to the Joomla control panel dashboard on the external device.
+---
+
+<center><img src="/SnapShots/Access_JOOMLA.jpeg" height=40% width=30% ></center>
+
+
+###: 16. Verify the database and schema on the system.
+---
+
+<img src="/SnapShots/MySQL_DB_Run_Inside_D_Container.png">
+
+### 17. Check database details, including table creation status.
+
+---
+
+<img src="/SnapShots/Check_Docker_Images.png" >
+
+
+
+### 4. Inspect the Docker container to retrieve the IP address.
+---
+
+<img src="/SnapShots/Inspect_IP_Of_Container.png">
 
 
 </div>
