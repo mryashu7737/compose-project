@@ -31,6 +31,11 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 ---
 <img src="/SnapShots/DockerApp-processing.png">
 
+### 3. Verify the running containers on the system.
+---
+
+<img src="/SnapShots/Inspect_IP_Of_Container.png">
+
 
 ### 4. Screenshot of the Joomla! sample site homepage.
 ---
@@ -109,11 +114,6 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 <img src="/SnapShots/Check_Docker_Images.png" >
 
 
-
-### 4. Inspect the Docker container to retrieve the IP address.
----
-
-<img src="/SnapShots/Inspect_IP_Of_Container.png">
 
 
 </div>
