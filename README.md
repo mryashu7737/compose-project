@@ -56,7 +56,7 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 
 
 
-###: 7. Check the Docker version and start Docker Compose.
+### 7. Check the Docker version and start Docker Compose.
 ---
 
 <img src="/SnapShots/Execute_docker-compose.jpg">
@@ -86,7 +86,7 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 
 <img src="/SnapShots/JOOMLA_OverView.jpeg">
 
-###: 13. Complete the Joomla installation on the external device.
+### 13. Complete the Joomla installation on the external device.
 ---
 
 <img src="/SnapShots/Installing_JOOMPLA_API.jpeg">
@@ -103,7 +103,7 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 <center><img src="/SnapShots/Access_JOOMLA.jpeg" height=40% width=30% ></center>
 
 
-###: 16. Verify the database and schema on the system.
+### 16. Verify the database and schema on the system.
 ---
 
 <img src="/SnapShots/MySQL_DB_Run_Inside_D_Container.png">
