@@ -23,6 +23,7 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 ## Snapshot of Executing :
 
 ### 1. Run docker-compose up on the system.
+
 ---
 
 <img src="/SnapShots/Start_Docker-App.png">
