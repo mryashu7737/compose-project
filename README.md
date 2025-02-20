@@ -18,9 +18,9 @@ This project provides a Docker Compose configuration to set up a Joomla! content
 - *Docker*: Container platform to package and run applications.
 - *Docker Compose*: Tool for defining and running multi-container Docker applications.
 
-<div style="text-align: center;> 
+<div style="text-align: center";>
    
-## Snapshot of Executing :
+##Snapshot of Executing :
 
 ### 1. Run docker-compose up on the system.
 
